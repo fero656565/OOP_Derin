@@ -7,8 +7,9 @@ public class Triangle {
     private int length;
 
 
-    public void printTriangleLeft() {
 
+
+    public void printTriangleLeft() {
         // Zeilen
         for (int i = 1; i <= length; i++) {
             // Zeichen innerhalb einer Zeile

@@ -10,6 +10,9 @@ public class Rectangle {
     private int width;
     private int borderWidth;
 
+    // Konstruktor
+
+
     //Methoden
     public void printRectangle() {
         // 2. Gefülltes Rechteck
