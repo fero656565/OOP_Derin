@@ -1,8 +1,7 @@
-import java.util.*;
+
 
 public class alkoholischeGetränke {
 
-    Scanner sc = new Scanner;
 
 
     private String name;
@@ -11,11 +10,11 @@ public class alkoholischeGetränke {
     private double pfand;
 
 
-    public Lebensmittel(String name, int barCode, double preis, double pfand) {
+    public alkoholischeGetränke(String name, int barCode, double preis, double pfand) {
         this.name = name;
         this.barCode = barCode;
         this.preis = preis;
-        this.double = pfand;
+        this.pfand = pfand;
     }
 
     public String getName(){

@@ -1,8 +1,8 @@
-import java.util.*;
+
 
 public class KosmetikaUndHaushaltsbedarf {
 
-    Scanner sc = new Scanner;
+
 
 
     private String name;
@@ -11,7 +11,7 @@ public class KosmetikaUndHaushaltsbedarf {
 
 
 
-    public Lebensmittel(String Name, int barCode, double preis) {
+    public KosmetikaUndHaushaltsbedarf(String Name, int barCode, double preis) {
         this.name = Name;
         this.barCode = barCode;
         this.preis = preis;

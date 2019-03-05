@@ -1,16 +1,17 @@
 
-import java.util.*;
-
-public class Lebensmittel {
 
 
+    public class Lebensmittel{
 
-   Scanner sc = new Scanner;
+
+
+
 
 
     private String name;
     private int barCode;
-private double preis;
+    private double preis;
+
 
     public Lebensmittel(String name, int barCode, double preis) {
         this.name = name;
@@ -24,6 +25,10 @@ private double preis;
 
     public int getBarCode(){
         return barCode;
+    }
+
+    public double getPreis(){
+        return preis;
     }
 
 

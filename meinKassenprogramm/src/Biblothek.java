@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 public class Biblothek {
 
+    private int preis;
+    private String name;
+    private int barCode;
+    private int pfand;
 
 
     ArrayList<Lebensmittel> LebensmittelListe = new ArrayList<Lebensmittel>();
@@ -29,6 +33,13 @@ public class Biblothek {
     private void createExtras (String name, int barCode, double preis){
         extrasListe.add(new extras(name, barCode, preis));
     }
+
+      public int getPreis(){return preis;}
+      public String getName(){return name;}
+      public int getBarCode(){return barCode;}
+      public int getPfand(){return pfand;}
+
+
 
     public void start(){
 

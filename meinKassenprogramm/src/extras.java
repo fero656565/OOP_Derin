@@ -1,8 +1,8 @@
-import java.util.Scanner;
+
 
 public class extras {
 
-    Scanner sc = new Scanner;
+
 
 
     private String name;
@@ -16,19 +16,18 @@ public class extras {
         this.preis = preis;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public int getBarCode(){
+    public int getBarCode() {
         return barCode;
     }
 
-    public double preis(){
+    public double getPreis() {
+
         return preis;
     }
-
-
 
 
 }

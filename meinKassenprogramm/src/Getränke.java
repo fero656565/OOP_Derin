@@ -1,14 +1,14 @@
-import java.util.Scanner;
+
 
 public class Getränke {
 
-    Scanner sc = new Scanner;
+
 
 
     private String name;
     private int barCode;
     private double preis;
-    private double pfand
+    private double pfand;
 
 
 
@@ -27,9 +27,7 @@ public class Getränke {
         return barCode;
     }
 
-    public double getPreis(){
-        return preis;
-    }
+    public double getPreis(){ return preis; }
 
     public double pfand(){
         return pfand;
