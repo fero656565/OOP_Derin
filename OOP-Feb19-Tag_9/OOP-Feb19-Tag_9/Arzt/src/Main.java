@@ -19,5 +19,8 @@ public class Main {
         drMeyer.patientBehandeln("Max");
 
         drJakob.patientBehandeln(5);
+
+
+
     }
 }
